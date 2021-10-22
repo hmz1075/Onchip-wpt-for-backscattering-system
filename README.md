@@ -24,5 +24,5 @@ Final design is limited to the on chip receiver coils, active reciter and a load
 ### On chip WPT coil modeling using sky water 130 nm stack
 Stack for the Inductive coils are modelled in ADS. Inductance of the coils is simulated using momentum simulations.
 
-
+![results](Plots/Read/Stack_for_coil.png)
 
