@@ -56,4 +56,25 @@ Comparator turns the PMOS switch and connects the load to the rectifier output o
 
 ### Layout Pictures
 
-![results](Plots/Read/Input_output.png)
+![results](Plots/Read/Layout.png)
+
+### Circuit View without WPT Coils
+
+![results](Plots/Read/Layout_without_Coils.png)
+
+### Backscattering implementation
+For the backscattering implementation an off chip circuitry will be used which will control the backscattering operation.
+ A simple backscattering scheme will be simple switch is use to shunt the receiver coil. Switch changes the impedance of the coils as seen by the transmitter. This change of impedance is detected at the transmitter side referred as a passive backscattered signal
+ 
+ ![results](Plots/Read/WPT_Phenomina.png)
+ 
+### Note: Final design is limited to the on chip receiver coils, active reciter and a load. Backscattering Switch is implemented off chip.
+
+### Prerequisites
+It’s assumed that you've installed ngspice, skywater-pdk, Xschem_sky130, the written documentation for Xschem is available here.
+### Design files
+The complete circuit is of schematic is contained in the following file
+schematics/FINAL.sch
+### Running Simulations
+Run xschem in the directory. The list open the list of schematics given in table
+
