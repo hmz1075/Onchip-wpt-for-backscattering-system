@@ -78,3 +78,4 @@ schematics/FINAL.sch
 ### Running Simulations
 Run xschem in the directory. The list open the list of schematics given in table
 
+ ![results](Plots/Read/Schematic.PNG)
