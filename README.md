@@ -29,3 +29,14 @@ Stack for the Inductive coils are modelled in ADS. Inductance of the coils is si
 ![results](Plots/Read/Stack_coil.png)
 
 ![results](Plots/Read/Proposed_Inductor.png)
+
+### Results 
+
+![results](Plots/Read/Results.png)
+
+For lower frequency inductance is around 2.26nH
+
+### What is Active Rectifier?  
+Active rectification is a technique for improving the efficiency of rectification by replacing diodes with actively controlled switches with or power bipolar junction transistors.  Normal semiconductor diodes have a roughly fixed voltage drop of around 0.5-1 volts, active rectifiers behave as resistances, and can have arbitrarily low voltage drop. The voltage drop across the transistor is then much lower, which reduces the power loss.
+
+![results](Plots/Read/Active_rectifier.png)
