@@ -1,0 +1,54 @@
+**.subckt NMOS20 D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM1 D G S B sky130_fd_pr__nfet_01v8_lvt L=0.35 W=80 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=20 m=20 
+**** begin user architecture code
+
+
+	.control
+	save all
+	tran 1ns 5us
+	Let PIN1= AVG(VINP*(i(VSIN2)))
+	Let PIN2= AVG(VINN*(i(VSIN2)))
+	Let PIN=PIN2+PIN2
+	Let POUT1= AVG(VOUT*(i(VSIN3)))
+	Let POUT2= AVG(VOUT*(i(VSIN1)))
+	Let POUT=POUT1+POUT2
+
+	Let EFF=(POUT/PIN)
+
+	*plot VOUT VIN1
+	*plot PIN
+	plot POUT
+	*plot VOUT
+	*plot POUT1
+	*plot POUT2
+	plot EFF
+	*plot VOUT_C
+	plot VREC
+
+
+
+	*plot POUT
+
+
+.endc
+
+
+ ** manual skywater pdks install (with patches applied)
+* .lib /home/shahid/open_pdks/sky130A/libs.tech/ngspice/models/sky130.lib.spice tt
+
+** opencircuitdesign pdks install
+.lib /home/shahid/open_pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+
+**** end user architecture code
+**.ends
+** flattened .save nodes
+.end

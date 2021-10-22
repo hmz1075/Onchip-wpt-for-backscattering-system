@@ -1,0 +1,8 @@
+**.subckt cap107-schemtaic VIN VOUT
+*.iopin VIN
+*.iopin VOUT
+XC3 VIN VOUT sky130_fd_pr__cap_mim_m3_1 W=28.8 L=28.8 MF=64 m=64
+XC1 VIN VOUT sky130_fd_pr__cap_mim_m3_1 W=28.5 L=28.5 MF=105 m=105
+**.ends
+** flattened .save nodes
+.end

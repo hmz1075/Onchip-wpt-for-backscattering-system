@@ -1,0 +1,51 @@
+**.subckt DC_BIAS
+XM1 Vd Vg GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+VGS Vg GND 1
+VDS Vd GND 1.8
+XM2 Vd2 Vg2 GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+VGS1 Vg2 GND 1
+VDS2 Vd2 GND 1.8
+**** begin user architecture code
+ ** manual skywater pdks install (with patches applied)
+* .lib /home/shahid/open_pdks/sky130A/libs.tech/ngspice/models/sky130.lib.spice tt
+
+** opencircuitdesign pdks install
+.lib /home/shahid/open_pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+
+
+
+	.control
+	dc VDS 0 1.8 100m VGS 0 1.8 10m
+	plot -i(VDS)
+	op
+	*let gm=@m.xm1.msky130_fd_pr__nfet_01v8[gm]
+	*let id=@m.xm1.msky130_fd_pr__nfet_01v8[id]
+	*let vth=@m.xm1.msky130_fd_pr__nfet_01v8[vth]
+
+	*let gm2=@m.xm2.msky130_fd_pr__nfet_01v8[gm]
+	*let id2=@m.xm2.msky130_fd_pr__nfet_01v8[id]
+	*let vth2=@m.xm2.msky130_fd_pr__nfet_01v8[vth]
+
+	*print gm
+	*print id
+	*print vth
+
+	*print gm2
+	*print id2
+	*print vth2
+
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end
