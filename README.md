@@ -16,4 +16,5 @@ Table of Contents
 ![results](Plots/Read/Sumary_Table.png)  
 ###  What is resonant WPT?
 Wireless Power Transmission (WPT) realized using resonant coils coupled via their magnetic is known as resonant WPT fields. Primary and Secondary coils are loaded with capacitors which are tuned at same frequency. Despite of low coupling coefficients MCR-WPT provides high power transfer at a single resonant frequency.
+
 ![results](Plots/Read/Backscattering.png)  
