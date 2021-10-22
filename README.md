@@ -40,3 +40,16 @@ For lower frequency inductance is around 2.26nH
 Active rectification is a technique for improving the efficiency of rectification by replacing diodes with actively controlled switches with or power bipolar junction transistors.  Normal semiconductor diodes have a roughly fixed voltage drop of around 0.5-1 volts, active rectifiers behave as resistances, and can have arbitrarily low voltage drop. The voltage drop across the transistor is then much lower, which reduces the power loss.
 
 ![results](Plots/Read/Active_rectifier.png)
+
+### Active Rectifier using skywater 130pdk
+Harvesting with an active full-wave rectifier within a wide voltage range the typical circuit is used. Sizing of the transistor is optimized in such a way to minimize the voltage drop across the transistors. A PMOS based switch is added which is controlled by a comparator which prevents the reverse current flow. Coil voltage is simulated as 0.5V 
+
+![results](Plots/Read/Final_Circuit.png)
+
+### Results: For 0.5V input voltage
+
+![results](Plots/Read/Rectified_Output.png)
+
+Comparator turns the PMOS switch and connects the load to the rectifier output once the voltage crosses the threshold.
+
+![results](Plots/Read/Input_output.png)
