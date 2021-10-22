@@ -12,5 +12,6 @@ Table of Contents
 10.	Design files
 11.	Running Simulations
 ### summary of design metrics
-#### VDD = 1.8 V, TT corner, 
+#### VDD = 1.8 V, TT corner
+![results](plots/Read/Sumary_Table.png)  
 
