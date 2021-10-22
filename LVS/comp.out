@@ -1,0 +1,35 @@
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_4QDPGG in circuit pmos20 (0)(20 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_BPY4AF in circuit nmos20 (0)(20 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_ZP6U3S in circuit cap225_layout (0)(1 instance)
+Flattening unmatched subcell pmos20 in circuit pmos40 (0)(2 instances)
+Flattening unmatched subcell pmos20 in circuit recitifer_layout (0)(2 instances)
+Flattening unmatched subcell nmos20 in circuit recitifer_layout (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_4QC8GG in circuit Comparator_jafar (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_8K7EBA in circuit Comparator_jafar (0)(5 instances)
+Flattening unmatched subcell cap225_layout in circuit RX_layout (0)(1 instance)
+Flattening unmatched subcell pmos40 in circuit RX_layout (0)(2 instances)
+Flattening unmatched subcell recitifer_layout in circuit RX_layout (0)(1 instance)
+Flattening unmatched subcell Comparator_jafar in circuit FINAL (0)(1 instance)
+Flattening unmatched subcell RX_layout in circuit FINAL (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_NBPZFR in circuit cap107_layout (0)(1 instance)
+Flattening unmatched subcell FINAL in circuit FINAL_without_ind.spice (0)(1 instance)
+Flattening unmatched subcell cap107_layout in circuit FINAL_without_ind.spice (0)(1 instance)
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Class FINAL_without_ind.spice:  Merged 441 devices.
+
+Subcircuit summary:
+Circuit 1: FINAL_without_ind.spice         |Circuit 2: FINAL_SCHEMATIC.spice           
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_lvt (7)            |sky130_fd_pr__pfet_01v8_lvt (7)            
+sky130_fd_pr__nfet_01v8_lvt (7)            |sky130_fd_pr__nfet_01v8_lvt (7)            
+sky130_fd_pr__cap_mim_m3_1 (2)             |sky130_fd_pr__cap_mim_m3_1 (2)             
+Number of devices: 16                      |Number of devices: 16                      
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes FINAL_without_ind.spice and FINAL_SCHEMATIC.spice are equivalent.
+Circuits match uniquely.
