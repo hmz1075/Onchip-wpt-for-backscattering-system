@@ -1,0 +1,16 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1634288381
+<< error_p >>
+rect 147 16229 209 16235
+rect 147 16195 159 16229
+rect 147 16189 209 16195
+rect 147 119 209 125
+rect 147 85 159 119
+rect 147 79 209 85
+use sky130_fd_pr__nfet_01v8_lvt_BPY4AF  sky130_fd_pr__nfet_01v8_lvt_BPY4AF_0
+timestamp 1634288381
+transform 1 0 178 0 1 8157
+box -231 -8210 231 8210
+<< end >>

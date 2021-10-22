@@ -1,0 +1,14 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1634290939
+<< metal3 >>
+rect 47098 40286 47430 41630
+use sky130_fd_pr__cap_mim_m3_1_F4FAMD  sky130_fd_pr__cap_mim_m3_1_F4FAMD_0
+timestamp 1634290939
+transform 1 0 47272 0 1 40962
+box -709 -700 709 700
+<< labels >>
+rlabel space 46864 41632 46864 41632 1 IN
+rlabel space 47878 40270 47878 40270 1 OUT
+<< end >>

@@ -1,0 +1,26 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1634126230
+<< error_s >>
+rect 147 16247 209 16253
+rect 608 16248 670 16254
+rect 147 16213 159 16247
+rect 608 16214 620 16248
+rect 147 16207 209 16213
+rect 608 16208 670 16214
+rect 147 119 209 125
+rect 608 120 670 126
+rect 147 85 159 119
+rect 608 86 620 120
+rect 147 79 209 85
+rect 608 80 670 86
+use sky130_fd_pr__pfet_01v8_lvt_4QDPGG  sky130_fd_pr__pfet_01v8_lvt_4QDPGG_1
+timestamp 1634126230
+transform 1 0 639 0 1 8167
+box -231 -8219 231 8219
+use sky130_fd_pr__pfet_01v8_lvt_4QDPGG  sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0
+timestamp 1634126230
+transform 1 0 178 0 1 8166
+box -231 -8219 231 8219
+<< end >>

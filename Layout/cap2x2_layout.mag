@@ -1,0 +1,19 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1634292682
+<< metal3 >>
+rect -218 -648 154 610
+rect -218 -730 166 -648
+<< metal4 >>
+rect -474 -934 -364 -726
+rect 242 -934 352 -736
+rect -719 -1064 402 -934
+use sky130_fd_pr__cap_mim_m3_1_UNTT8Z  sky130_fd_pr__cap_mim_m3_1_UNTT8Z_0
+timestamp 1634291374
+transform 1 0 -10 0 1 -50
+box -709 -700 709 700
+<< labels >>
+rlabel space -404 628 -404 628 1 VIN
+rlabel space 620 -740 620 -740 1 VOUT
+<< end >>

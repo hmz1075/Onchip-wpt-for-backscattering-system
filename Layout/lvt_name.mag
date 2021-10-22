@@ -1,0 +1,16 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1634285219
+<< error_p >>
+rect 147 16247 209 16253
+rect 147 16213 159 16247
+rect 147 16207 209 16213
+rect 147 119 209 125
+rect 147 85 159 119
+rect 147 79 209 85
+use sky130_fd_pr__pfet_01v8_lvt_4QDPGG  sky130_fd_pr__pfet_01v8_lvt_4QDPGG_0
+timestamp 1634285219
+transform 1 0 178 0 1 8166
+box -231 -8219 231 8219
+<< end >>
