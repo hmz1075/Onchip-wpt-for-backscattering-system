@@ -28,3 +28,4 @@ Stack for the Inductive coils are modelled in ADS. Inductance of the coils is si
 
 ![results](Plots/Read/Stack_coil.png)
 
+![results](Plots/Read/Proposed_Inductor.png)
