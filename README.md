@@ -11,3 +11,5 @@ Table of Contents
 9.	Prerequisites
 10.	Design files
 11.	Running Simulations
+### summary of design metrics
+#### VDD = 1.8 V, TT corner, 
