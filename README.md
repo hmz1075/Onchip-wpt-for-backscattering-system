@@ -53,3 +53,7 @@ Harvesting with an active full-wave rectifier within a wide voltage range the ty
 Comparator turns the PMOS switch and connects the load to the rectifier output once the voltage crosses the threshold.
 
 ![results](Plots/Read/Input_output.png)
+
+### Layout Pictures
+
+![results](Plots/Read/Input_output.png)
