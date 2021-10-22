@@ -25,4 +25,6 @@ Final design is limited to the on chip receiver coils, active reciter and a load
 Stack for the Inductive coils are modelled in ADS. Inductance of the coils is simulated using momentum simulations.
 
 ![results](Plots/Read/Stack_for_coil.png)
+
 ![results](Plots/Read/Stack_coil.png)
+
