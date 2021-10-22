@@ -13,5 +13,5 @@ Table of Contents
 11.	Running Simulations
 ### summary of design metrics
 #### VDD = 1.8 V, TT corner
-![results](plots/Read/Sumary_Table.png)  
+![results](Plots/Read/Sumary_Table.png)  
 
