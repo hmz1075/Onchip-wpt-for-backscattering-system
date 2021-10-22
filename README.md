@@ -19,5 +19,5 @@ Wireless Power Transmission (WPT) realized using resonant coils coupled via thei
 
 ![results](Plots/Read/Backscattering.png)  
 ![results](Plots/Read/Backscattering_Switch.png)  
-# Note: 
+### Note: 
 Final design is limited to the on chip receiver coils, active reciter and a load. Backscattering Switch is implemented off chip to shunt the coil
