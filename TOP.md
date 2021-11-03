@@ -8,3 +8,11 @@ Wireless Power Transmission (WPT) is realized using resonant coils. Primary and 
 
 ### Circuit Schematic
 ![results](Plots/Read/top2.png) 
+
+### Layout
+![results](Plots/Read/top3.png) 
+
+### 2)	Bi-Directional Amplifier Architecture for Sub-6 GHz 5G
+### Introduction
+![results](Plots/Read/top4.png) 
+![results](Plots/Read/top5.png) 
